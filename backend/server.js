@@ -39,4 +39,3 @@ app.listen(port, () => {
 pool.on('connect', () => {
   console.log('Connected to the database');
 });
-
