@@ -1,6 +1,6 @@
 import React from 'react';
 import './Resume/components/Navbar.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Resume/components/Navbar';
 import Layout from './Resume/components/Layout'; // Adjust path as needed
 import Home from './Resume/components/Home';

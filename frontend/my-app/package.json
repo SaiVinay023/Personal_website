@@ -22,9 +22,8 @@
     "web-vitals": "^2.1.4",
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
-    "homepage": "https://SaiVinay023/Personal_website.github.io/frontend/my-app/"
-
-  },
+    "homepage": "https://SaiVinay023.github.io/Personal_website.github.io/blob/main/frontend/my-app/public/index.html"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
