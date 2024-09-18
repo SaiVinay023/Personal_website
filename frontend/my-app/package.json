@@ -22,7 +22,7 @@
     "web-vitals": "^2.1.4",
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
-    "homepage": "https://github.com/SaiVinay023.github.io/Personal_website"
+    "homepage": "https://github.com/SaiVinay023.github.io/Personal_website.github.io/tree/main/frontend/my-app"
 
   },
   "scripts": {
@@ -31,7 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
       "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
