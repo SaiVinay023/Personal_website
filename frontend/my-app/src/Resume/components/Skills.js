@@ -7,7 +7,7 @@ import SkillsPage from './SkillsPage';
 const Skills = () => {
   return (
     <div>
-      <a> < SkillsPage /></a>
+      <a href="#skills"> < SkillsPage /></a>
     </div>
   );
 };

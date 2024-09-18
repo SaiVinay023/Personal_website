@@ -1,7 +1,7 @@
 import React from 'react';
 import './Resume/components/Navbar.css';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './Resume/components/Navbar';
+//import Navbar from './Resume/components/Navbar';
 import Layout from './Resume/components/Layout'; // Adjust path as needed
 import Home from './Resume/components/Home';
 import Resume from './Resume/components/Resume';
@@ -14,7 +14,7 @@ import Project from './Resume/components/Project';
 import Achievements from './Resume/components/Achievements';
 import Experiences from './Resume/components/Experiences';
 import Contact from './Resume/components/Contact';
-import SearchableContent from './Resume/components/SearchableContent';
+//import SearchableContent from './Resume/components/SearchableContent';
 const App = () => {
   return (
     <Router>

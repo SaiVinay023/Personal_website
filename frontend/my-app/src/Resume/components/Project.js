@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <div>
           <h1>Projects</h1>
-          <a> <ProjectsSlider /></a>
+          <a href="#project"> <ProjectsSlider /></a>
     </div>
   );
 };

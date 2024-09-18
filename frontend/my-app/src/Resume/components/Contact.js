@@ -5,7 +5,7 @@ import ContactMe from './ContactMe';
 const Contact = () => {
   return (
     <div>
-          <a><ContactMe /></a>
+          <a href="#contact"><ContactMe /></a>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import ResumeSlider from './ResumeSlider';
 const Resume = () => {
   return (
     <div>
-      <a><ResumeSlider /></a>
+      <a href="#Resume"><ResumeSlider /></a>
     </div>
   );
 };

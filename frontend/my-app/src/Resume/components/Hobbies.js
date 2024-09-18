@@ -5,7 +5,7 @@ const Hobbie = () => {
   return (
     <div>
 
-      <a> < HobbiesPage /></a>
+      <a href="#Hobbies"> < HobbiesPage /></a>
     </div>
   );
 };

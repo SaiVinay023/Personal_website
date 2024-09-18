@@ -6,7 +6,7 @@ import AboutMeSection from './AboutMeSection';
 const About = () => {
   return (
     <div>
-      <a> < AboutMeSection></AboutMeSection></a>
+      <a href="#Aboutme"> < AboutMeSection /></a>
     </div>
   );
 };

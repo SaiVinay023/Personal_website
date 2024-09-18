@@ -5,7 +5,7 @@ import AchievementsPage from './AchievementsPage';
 const Achievements = () => {
   return (
     <div>
-          <a><AchievementsPage /></a>
+          <a href="#Achievements"><AchievementsPage /></a>
     </div>
   );
 };
