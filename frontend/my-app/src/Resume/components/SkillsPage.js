@@ -2,38 +2,76 @@ import React from 'react';
 import { Container, Typography, Box, Grid } from '@mui/material';
 import SkillCard from './SkillCards'; // Import the SkillCard component
 
+
+
 // Skill data organized by category
 const skillsData = {
   'Programming Languages': [
-    { skill: 'C++', percentage: 90 },
-    { skill: 'C', percentage: 85 },
-    { skill: 'Java', percentage: 80 },
-    { skill: 'Python', percentage: 95 }
+    { skill: 'C++', percentage: 60 },
+    { skill: 'C', percentage: 30 },
+    { skill: 'C#', percentage: 20 },
+    { skill: 'Python', percentage: 70, },
+    { skill: 'Javascript', percentage: 80, },
+    { skill: 'HTML', percentage: 90 },
+    { skill: 'CSS', percentage: 90 },
+    { skill: 'MATLAB', percentage: 20, },
+    { skill: 'SQL', percentage: 45, },
+    { skill: 'JSON', percentage: 95, }
+
   ],
   'Frameworks & Libraries': [
-    { skill: 'ReactJS', percentage: 90 },
-    { skill: 'VueJS', percentage: 75 },
-    { skill: 'NodeJS', percentage: 85 },
-    { skill: 'NextJS', percentage: 80 },
-    { skill: 'Express', percentage: 80 }
+    { skill: 'ReactJS', percentage: 60 },
+    { skill: 'VueJS', percentage: 30 },
+    { skill: 'NodeJS', percentage: 65 },
+    { skill: 'NextJS', percentage: 30 },
+    { skill: 'Express', percentage: 70 },
+    { skill: 'Django', percentage: 40 },
+    { skill: 'Material UI', percentage: 70 },
+    { skill: 'antD', percentage: 40 },
+    { skill: 'NextJS', percentage: 30 },
+    { skill: 'Express', percentage: 70 }
   ],
   'Databases': [
-    { skill: 'PostgreSQL', percentage: 85 },
-    { skill: 'MongoDB', percentage: 75 }
+    { skill: 'PostgreSQL', percentage: 50 },
+    { skill: 'MongoDB', percentage: 50 },
+
   ],
   'Hardware/Robotics': [
-    { skill: 'ROS1', percentage: 70 },
-    { skill: 'ROS2', percentage: 65 },
+    { skill: 'ROS1', percentage: 50 },
+    { skill: 'ROS2', percentage: 60 },
     { skill: 'V-REP', percentage: 60 },
-    { skill: 'CAD', percentage: 80 },
-    { skill: 'SolidWorks', percentage: 85 },
-    { skill: 'CATIA', percentage: 75 },
-    { skill: 'AutoCAD', percentage: 80 },
+    { skill: 'CAD', percentage: 60 },
+    { skill: 'SolidWorks', percentage: 70 },
+    { skill: 'CATIA', percentage: 30 },
+    { skill: 'AutoCAD', percentage: 30 },
     { skill: 'Microcontrollers', percentage: 75 },
     { skill: 'BeagleBone Black', percentage: 60 },
     { skill: 'Raspberry Pi', percentage: 85 },
     { skill: 'Arduino', percentage: 90 }
-  ]
+  ],
+  'Microcontrollers': [
+    { skill: 'Arduino', percentage: 80 },
+    { skill: 'Raspberrypi', percentage: 50 },
+    { skill: 'BeagleboneBlack', percentage: 25 }
+  ],
+  'Soft Skills': [
+    { skill: 'Problem Solving', percentage: 80 },
+    { skill: 'Attention to Detail', percentage: 80 },
+    { skill: 'Collaboration', percentage: 60 },
+    { skill: 'Adaptability', percentage: 60 },
+    { skill: 'Time Management', percentage: 80 },
+    { skill: 'Curiosity for Learning', percentage: 90 },
+    { skill: 'Debugging Proficiency', percentage: 90 },
+    { skill: 'High Energy', percentage: 80 },
+    { skill: 'Hyperfocus', percentage: 90 },
+    { skill: 'Resilience', percentage: 75 },
+    { skill: 'Multi-tasking', percentage: 100 },
+    { skill: 'Creativity', percentage: 70 },
+    { skill: 'Positive Attitude', percentage: 85 },
+    { skill: 'Goal-Oriented', percentage: 90 }
+  ],
+  
+  
 };
 
 const SkillsPage = () => {

@@ -5,7 +5,7 @@ const Hobbie = () => {
   return (
     <div>
 
-      <a href="#Hobbies"> < HobbiesPage /></a>
+      <a href="#Hobbies" style={{ textDecoration: 'none' }}> < HobbiesPage /></a>
     </div>
   );
 };

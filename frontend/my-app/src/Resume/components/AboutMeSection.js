@@ -4,11 +4,22 @@ import { styled } from '@mui/system';
 
 // Sample quotes or sayings you believe in
 const aboutMeContent = [
-  { quote: "Motivated and ambitious", icon: "🚀" },
-  { quote: "Striving to be a better software engineer", icon: "💻" },
-  { quote: "Passionate about learning new technologies", icon: "📚" },
-  { quote: "Enjoy working on challenging projects", icon: "🏗️" },
-  { quote: "Dedicated to personal and professional growth", icon: "🌱" }
+  { quote: "Driven by curiosity and creativity", icon: "🧠", emoji: "" },
+{ quote: "Aiming for excellence in every project", icon: "🏅", emoji: "" },
+{ quote: "Collaborative and team-oriented", icon: "🤝", emoji: "" },
+{ quote: "Committed to continuous improvement", icon: "🔧", emoji: "" },
+{ quote: "Focused on delivering high-quality results", icon: "🎯", emoji: "" },
+{ quote: "Embracing innovation and change", icon: "⚙️", emoji: "" },
+{ quote: "Thriving in dynamic environments", icon: "🌪️", emoji: "" },
+{ quote: "Detail-oriented and organized", icon: "🗂️", emoji: "" },
+{ quote: "Resilient and adaptable under pressure", icon: "💪", emoji: "" },
+{ quote: "Building solutions with a purpose", icon: "🔨", emoji: "" },
+{ quote: "Inspired by challenges and complex problems", icon: "🧩", emoji: "" },
+{ quote: "Fuelled by passion and persistence", icon: "🔥", emoji: "" },
+{ quote: "Eager to learn and grow every day", icon: "🌟", emoji: "" },
+{ quote: "Solving problems with creativity and logic", icon: "🧑‍🔬", emoji: "" },
+{ quote: "Always pushing the limits of what's possible", icon: "🚀", emoji: "" }
+
 ];
 
 // Styled container with animated gradient background
@@ -40,7 +51,7 @@ const FlipCardInner = styled(Box)(({ theme }) => ({
   transformStyle: 'preserve-3d',
   position: 'relative',
   '&:hover': {
-    transform: 'rotateY(180deg)',
+    //transform: 'rotateY(180deg)',
   },
 }));
 
@@ -88,23 +99,23 @@ const AboutMeSection = () => {
                 <CardContent>
                   <Typography variant="h4" component="div">
                     {item.icon}
+                    {item.quote}
                   </Typography>
                   <Typography variant="h6">
-                    Click to Reveal
                   </Typography>
                 </CardContent>
               </FlipCardFront>
 
-              {/* Back Side of Flip Card */}
+              {/* Back Side of Flip Card 
               <FlipCardBack>
                 <CardContent>
                   <Typography variant="body1" component="div">
                     {item.quote}
                   </Typography>
                 </CardContent>
-              </FlipCardBack>
+              </FlipCardBack> */}
             </FlipCardInner>
-          </FlipCardContainer>
+          </FlipCardContainer>  
         ))}
       </Box>
     </StyledContainer>

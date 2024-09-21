@@ -45,12 +45,12 @@ const HomePageCards = () => {
 
   const data = [
     {
-      leftCard: { title: 'Strengths', description: 'Problem-solving, technical skills, adaptability.', popupDetail: 'Full details about Strengths.' },
-      rightCard: { title: 'Weaknesses', description: 'Perfectionism, overthinking, time management challenges.', popupDetail: 'Full details about Weaknesses.' },
+      leftCard: { title: 'Strengths', description: 'Problem-solving, technical skills, adaptability.', popupDetail: 'I possess strong problem-solving abilities, complemented by solid technical skills and adaptability. These strengths enable me to tackle challenges effectively and embrace new opportunities.' },
+      rightCard: { title: 'Weaknesses', description: 'Perfectionism, overthinking, time management challenges.', popupDetail: 'On the flip side, I sometimes struggle with perfectionism and overthinking, which can lead to time management challenges. However I am continuously working to improve these areas.' },
     },
     {
-      leftCard: { title: 'Work Modality', description: 'Prefers agile methodologies and collaboration.', popupDetail: 'Details on Work Modality.' },
-      rightCard: { title: 'Culture Fit', description: 'Proactive, team-oriented, embraces diversity.', popupDetail: 'Details on Culture Fit.' },
+      leftCard: { title: 'Work Modality', description: 'Prefers agile methodologies and collaboration.', popupDetail: 'In terms of work modality, I thrive in agile environments that prioritize collaboration and flexibility. This approach allows me to be responsive to changing needs and fosters team synergy.' },
+      rightCard: { title: 'Culture Fit', description: 'Proactive, team-oriented, embraces diversity.', popupDetail: 'Culturally, I am proactive and team-oriented, and I wholeheartedly embrace diversity. I believe that a diverse team enriches our collective creativity and effectiveness..' },
     },
   ];
 
@@ -91,27 +91,42 @@ const HomePageCards = () => {
       {/* Centered content about the workplace you're looking for */}
       <Box sx={{ marginTop: 5, textAlign: 'center', maxWidth: '900px', margin: 'auto', padding: 2 }}>
         <Typography variant="h4" gutterBottom sx={{ color: '#fff' }}>
-          What I’m Looking for in a Workplace
+        I’m an ambitious and driven individual who values continuous learning and personal growth. I’m always eager to expand my knowledge and improve my skills, approaching challenges with a focus on creativity and out-of-the-box thinking. I enjoy working in environments where I can make meaningful contributions, leveraging my focus and dedication to achieve results.
         </Typography>
         <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
-          Work closely with other software engineers to expand our set of libraries and make our processes ever-more efficient.
-          Learn about the latest and greatest technologies, testing the promising ones to make sure we don’t miss out on game-changing opportunities to boost our productivity and the enjoyment of our work.
-          Constantly improve the quality of our products, tools, or infrastructures by fixing bugs and refactoring the code base where necessary.
-        </Typography>
+        About Me
+
+Reasoning Ability
+
+Drive
+
+Team Spirit
+
+Proficiency in English
+
+Team Management
+
+</Typography>
         <Typography variant="h5" gutterBottom sx={{ color: '#fff' }}>
-          What I Value
+         
         </Typography>
         <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
-          <strong>Reasoning ability:</strong> Given the necessary knowledge, you can solve complex problems. You think from first principles, structure your ideas sharply, and resist biases. You identify and take care of the details that matter.
+          <strong>Reasoning ability:</strong> I approach problems by thinking from first principles, structuring ideas carefully, and avoiding assumptions. I enjoy solving complex problems by paying attention to the details that truly matter, and I’m always open to exploring new ideas that can make a difference.
+          </Typography>
+        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
+          <strong>Drive:</strong> I’m naturally ambitious and take initiative in my work. I hold myself to a high standard and am committed to improving with each project. I take pride in putting forth consistent effort, while also staying adaptable to change and growth.
+          </Typography>
+        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
+          <strong>Team spirit:</strong> I believe in supporting the best ideas and working collaboratively. I’m honest, transparent, and always ready to assist others. I enjoy being socially engaging, contributing to a positive team dynamic, and helping create an environment where everyone can succeed.
+          </Typography>
+        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
+          <strong>Proficiency in English:</strong> I’m proficient in reading, writing, and speaking English, which allows me to communicate effectively across diverse professional settings. I value clear communication and strive to express my ideas in a way that fosters teamwork and mutual understanding.
+
         </Typography>
         <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
-          <strong>Drive:</strong> You’re extremely ambitious and your initiative, effort, and tenacity match the intensity of your ambition. You feel deeply responsible for your work and hold yourself to a high—and rising—standard.
-        </Typography>
-        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
-          <strong>Team spirit:</strong> You support the best idea, not just your idea. You’re always happy to help your team and are reliable, honest, and transparent.
-        </Typography>
-        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
-          <strong>Proficiency in English:</strong> You read, write, and speak proficiently in English.
+          <strong>Team Management
+          :</strong> I’m proficient in reading, writing, and speaking English, which allows me to communicate effectively across diverse professional settings. I value clear communication and strive to express my ideas in a way that fosters teamwork and mutual understanding.
+
         </Typography>
       </Box>
 

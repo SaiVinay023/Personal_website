@@ -5,7 +5,7 @@ import ExperiencesPage from './ExperiencesPage';
 const Experiences = () => {
   return (
     <div>
-          <a href="#Experiences"><ExperiencesPage/></a>
+          <a href="#Experiences" style={{ textDecoration: 'none' }}><ExperiencesPage/></a>
     </div>
   );
 };

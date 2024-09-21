@@ -3,9 +3,9 @@ import { Card, CardContent, Typography, Box, LinearProgress } from '@mui/materia
 
 // Function to determine the color of the meter based on the percentage
 const getMeterColor = (percentage) => {
-  if (percentage < 20) return 'error';      // Red
-  if (percentage >= 20 && percentage < 40) return 'warning'; // Yellow
-  if (percentage >= 40 && percentage < 70) return 'info';    // Blue
+  if (percentage < 30) return 'error';      // Red
+  if (percentage >= 30 && percentage < 50) return 'warning'; // Yellow
+  if (percentage >= 50 && percentage < 70) return 'info';    // Blue
   return 'success';                        // Green for 70%+
 };
 
@@ -43,7 +43,7 @@ const SkillCard = ({ skill, percentage }) => {
             variant="body2"
             sx={{
               position: 'absolute',
-              top: -20,
+              top: -40,
               right: 0,
               fontWeight: 'bold',
               color: getMeterColor(percentage),

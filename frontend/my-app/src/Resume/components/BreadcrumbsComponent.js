@@ -8,8 +8,8 @@ const BreadcrumbsComponent = () => {
   const pathnames = location.pathname.split('/').filter(x => x);
 
   return (
-    <Breadcrumbs aria-label="breadcrumb" className="breadcrumbs">
-      <Link to="/"><h3>Home</h3></Link>
+    <Breadcrumbs separator="›" aria-label="breadcrumb" className="breadcrumbs">
+      <Link underline="hover" color="inherit" href="/"><h3>Home</h3></Link>
       {pathnames.map((value, index) => {
         const last = index === pathnames.length - 1;
         const to = `/${pathnames.slice(0, index + 1).join('/')}`;

@@ -6,7 +6,7 @@ import AboutMeSection from './AboutMeSection';
 const About = () => {
   return (
     <div>
-      <a href="#Aboutme"> < AboutMeSection /></a>
+      <div href="#Aboutme" style={{ textDecoration: 'none' }}> < AboutMeSection /></div>
     </div>
   );
 };

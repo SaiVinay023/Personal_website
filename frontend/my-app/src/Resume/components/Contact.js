@@ -5,7 +5,7 @@ import ContactMe from './ContactMe';
 const Contact = () => {
   return (
     <div>
-          <a href="#contact"><ContactMe /></a>
+          <a href="#contact" style={{ textDecoration: 'none' }}><ContactMe /></a>
     </div>
   );
 };

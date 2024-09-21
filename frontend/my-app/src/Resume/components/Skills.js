@@ -7,7 +7,7 @@ import SkillsPage from './SkillsPage';
 const Skills = () => {
   return (
     <div>
-      <a href="#skills"> < SkillsPage /></a>
+      <a href="#skills" style={{ textDecoration: 'none' }}> < SkillsPage /></a>
     </div>
   );
 };

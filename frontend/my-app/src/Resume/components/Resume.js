@@ -5,7 +5,7 @@ import ResumeSlider from './ResumeSlider';
 const Resume = () => {
   return (
     <div>
-      <a href="#Resume"><ResumeSlider /></a>
+      <a href="#Resume" style={{ textDecoration: 'none' }}><ResumeSlider /></a>
     </div>
   );
 };
