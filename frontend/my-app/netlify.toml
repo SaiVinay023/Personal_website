@@ -1,6 +1,6 @@
 [build]
   base = "frontend/my-app"
-  publish = "frontend/my-app/build"
+  publish = "publish: /opt/build/repo/frontend/my-app/frontend/my-app/build"
   command = "npm run build"
 
 [[redirects]]
