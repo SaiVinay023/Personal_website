@@ -19,8 +19,7 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 const educationData = [
   {
     degree: 'BTech in Mechanical Engineering',
-    institution: 'XYZ University',
-    year: '2014 - 2018',
+    institution: 'The National Institute of Engineering, Mysuru',
     cfu: '240 CFU',
     courses: ['Thermodynamics', 'Fluid Mechanics', 'Material Science', 'CAD'],
     skills: ['Problem-solving', 'Analytical Thinking', 'Design Skills', 'Teamwork'],
@@ -28,9 +27,8 @@ const educationData = [
     modality: 'Learned mechanical design principles and problem-solving through simulations and real-world projects.'
   },
   {
-    degree: 'Robotics Engineer',
-    institution: 'ABC University',
-    year: '2020 - 2022',
+    degree: 'MSc Robotics Engineer',
+    institution: 'University of Genoa',
     cfu: '120 CFU',
     courses: ['Robot Kinematics', 'Control Systems', 'Artificial Intelligence', 'ROS'],
     skills: ['Robot Programming', 'AI Integration', 'Automation', 'Research Skills'],

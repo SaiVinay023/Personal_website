@@ -4,18 +4,38 @@ import { Card, CardContent, Typography, Box, Dialog, DialogTitle, DialogContent,
 // Data for professional and personal experiences
 const experiencesData = {
   professional: [
+  
+  
     {
-      title: 'Software Engineer at XYZ Corp',
-      summary: 'Worked on backend systems and API development.',
+      title: 'Software Developer / Intern at IIT Genoa, AI Lab UNIGE',
+      summary: 'Worked on testing and implementing a runtime monitoring framework.',
+      details: 'Tested ROS Monitoring, a runtime monitoring framework for ROS systems, integrating RML and a Prolog-based oracle. Employed Python, ROS, ROS 2, Ubuntu, and Docker to validate the framework on the IIT R1 robot.',
+      outcome: 'Developed and integrated advanced safety strategies, enhancing human-robot interaction.'
+    },
+    {
+      title: 'Full Stack Developer at Many Designs SRL',
+      summary: 'Contributed to business application projects.',
+      details: 'Key contributor to the successful implementation of two business application projects. Enhanced user experience and data visualization using various frontend tools and frameworks.',
+      outcome: 'Demonstrated adaptability and proactive involvement in diverse Full Stack Development projects.'
+    },
+    {
+      title: 'Software Engineer at Green Project - GP Marketing & Reading Systems',
+      summary: 'Developed scalable backend services and optimized APIs.',
       details: 'Developed scalable backend services using Node.js and PostgreSQL, optimized APIs, and collaborated with cross-functional teams to enhance product delivery.',
       outcome: 'Improved system performance by 20%, enhanced team collaboration.'
     },
     {
-      title: 'Intern at ABC Tech',
-      summary: 'Worked on frontend using React and Material UI.',
-      details: 'Developed UI components for e-commerce web apps, and enhanced the user experience by improving design and responsiveness.',
-      outcome: 'Delivered user-friendly UI, improved website traffic by 15%.'
+      title: 'Junior Web Developer at AceTeq Webservices Pvt Ltd',
+      summary: 'Built and maintained websites for clients.',
+      details: 'Created and tested applications for websites, gathered information, and performed research. Filed reports and created guides to document processes.',
+      outcome: 'Maintained business continuity and improved client satisfaction.'
     },
+    {
+      title: 'Robotics Software Engineer at Avyang Technologies Pvt Ltd',
+      summary: 'Designed and prototyped robotics solutions.',
+      details: 'Created CAD designs using SOLIDWORKS and CATIA, programmed microcontrollers including Arduino and Raspberry Pi, and led the development of an innovative smart device.',
+      outcome: 'Conducted workshops, mentoring over 240 students, fostering a passion for robotics.'
+    }
   ],
   personal: [
     {

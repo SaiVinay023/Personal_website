@@ -40,30 +40,27 @@ const ContactMe = () => {
           <Card sx={{ marginBottom: 3 }}>
             <CardContent>
               <Typography variant="h5" gutterBottom>
-                I do Freelancing Projects
               </Typography>
               <Typography variant="body1" sx={{ marginBottom: 2 }}>
-                I’m available for freelance work and open to interesting project collaborations.
-                If you have any projects or ideas, feel free to reach out using the form or through
+               feel free to reach out using the form or through
                 one of the contact methods below.
               </Typography>
 
               {/* Contact methods */}
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-                <IconButton component="a" href="mailto:your-email@example.com">
+                <IconButton component="a" href="saivinay023@gmail.com">
                   <EmailIcon />
                 </IconButton>
-                <IconButton component="a" href="tel:+1234567890">
+                <IconButton component="a" href="tel:+393482625113">
                   <PhoneIcon />
                 </IconButton>
-                <IconButton component="a" href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                <IconButton component="a" href="https://www.linkedin.com/in/saivinaymanda/" target="_blank">
                   <LinkedInIcon />
                 </IconButton>
-                <IconButton component="a" href="https://github.com/yourprofile" target="_blank">
+                <IconButton component="a" href="https://github.com/SaiVinay023?tab=repositories" target="_blank">
                   <GitHubIcon />
                 </IconButton>
                 <IconButton component="a" href="https://twitter.com/yourprofile" target="_blank">
-                  <TwitterIcon />
                 </IconButton>
               </Box>
             </CardContent>
