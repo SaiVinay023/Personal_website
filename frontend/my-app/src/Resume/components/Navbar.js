@@ -12,21 +12,27 @@ const Navbar = () => {
           <Button color="inherit" component={Link} to="/" sx={{ margin: 1 }}>
             Home
           </Button>
-          <Button color="inherit" component={Link} to="/resume" sx={{ margin: 1 }}>
-            Resume/CV
-          </Button>
           <Button color="inherit" component={Link} to="/about" sx={{ margin: 1 }}>
             About Me
+          </Button>
+          <Button color="inherit" component={Link} to="/education" sx={{ margin: 1 }}>
+            Education
           </Button>
           <Button color="inherit" component={Link} to="/skills" sx={{ margin: 1 }}>
             Skills
           </Button>
-          <Button color="inherit" component={Link} to="/hobbies" sx={{ margin: 1 }}>
-            Hobbies
-          </Button>
           <Button color="inherit" component={Link} to="/projects" sx={{ margin: 1 }}>
             Projects
           </Button>
+          <Button color="inherit" component={Link} to="/resume" sx={{ margin: 1 }}>
+            Resume/CV
+          </Button>
+         
+          
+          <Button color="inherit" component={Link} to="/hobbies" sx={{ margin: 1 }}>
+            Hobbies
+          </Button>
+          
           <Button color="inherit" component={Link} to="/achievements" sx={{ margin: 1 }}>
             Achievements
           </Button>

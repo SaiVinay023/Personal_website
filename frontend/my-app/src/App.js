@@ -14,6 +14,7 @@ import Project from './Resume/components/Project';
 import Achievements from './Resume/components/Achievements';
 import Experiences from './Resume/components/Experiences';
 import Contact from './Resume/components/Contact';
+import Myeducation from './Resume/components/Myeducation';
 //import SearchableContent from './Resume/components/SearchableContent';
 const App = () => {
   return (
@@ -22,8 +23,9 @@ const App = () => {
         <div className="content">
           <Routes>
           <Route path="/" element={<Layout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/resume" element={<Resume />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/education" element={<Myeducation />} />
+              <Route path="/resume" element={<Resume />} />
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/hobbies" element={<Hobbie />} />
