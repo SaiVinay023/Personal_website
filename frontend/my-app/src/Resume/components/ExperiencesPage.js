@@ -111,7 +111,7 @@ const ExperiencesPage = () => {
         ))}
       </Box>
 
-      {/* Personal Experiences */}
+      {/* Personal Experiences 
       <Typography variant="h5" sx={{ marginTop: 4, marginBottom: 2 }}>Personal Experiences</Typography>
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
         {experiencesData.personal.map((experience, index) => (
@@ -121,7 +121,7 @@ const ExperiencesPage = () => {
             handleClick={handleClick}
           />
         ))}
-      </Box>
+      </Box> */}
 
       {/* Experience Details Popup */}
       {selectedExperience && (
