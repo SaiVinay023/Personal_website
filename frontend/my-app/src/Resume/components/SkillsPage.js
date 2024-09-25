@@ -6,6 +6,23 @@ import SkillCard from './SkillCards'; // Import the SkillCard component
 
 // Skill data organized by category
 const skillsData = {
+
+  'Soft Skills': [
+    { skill: 'Problem Solving', percentage: 80 },
+    { skill: 'Attention to Detail', percentage: 80 },
+    { skill: 'Collaboration', percentage: 80 },
+    { skill: 'Adaptability', percentage: 60 },
+    { skill: 'Time Management', percentage: 70 },
+    { skill: 'Curiosity for Learning', percentage: 90 },
+    { skill: 'Debugging Proficiency', percentage: 90 },
+    { skill: 'High Energy', percentage: 80 },
+    { skill: 'Hyperfocus', percentage: 95 },
+    { skill: 'Resilience', percentage: 75 },
+    { skill: 'Multi-tasking', percentage: 100 },
+    { skill: 'Creativity', percentage: 70 },
+    { skill: 'Positive Attitude', percentage: 85 },
+    { skill: 'Goal-Oriented', percentage: 90 }
+  ],
   'Programming Languages': [
     { skill: 'C++', percentage: 40 },
     { skill: 'C', percentage: 20 },
@@ -35,7 +52,21 @@ const skillsData = {
   'Databases': [
     { skill: 'PostgreSQL', percentage: 50 },
     { skill: 'MongoDB', percentage: 50 },
+    
 
+  ],
+  'Basic/Other SKills': [
+    { skill: 'Git', percentage: 80 },
+    { skill: 'Vscode IDE', percentage: 70 },
+    { skill: 'IntelliJ', percentage: 40 },
+    { skill: 'Pinia State Manager', percentage: 30 },
+    { skill: 'Postman API', percentage: 60 },
+    { skill: 'REST API', percentage: 60 },
+    { skill: 'Windows OS', percentage: 90 },
+    { skill: 'Ubuntu OS', percentage: 90 },
+    { skill: 'Mac OS', percentage: 70 },
+    { skill: 'linux commands', percentage: 70 },
+   
   ],
   'Hardware/Robotics': [
     { skill: 'ROS1', percentage: 50 },
@@ -52,27 +83,14 @@ const skillsData = {
     { skill: 'Kuka Robots', percentage: 40 },
    
   ],
+  
   'Microcontrollers': [
     { skill: 'Arduino', percentage: 80 },
     { skill: 'Raspberrypi', percentage: 50 },
     { skill: 'BeagleboneBlack', percentage: 25 }
   ],
-  'Soft Skills': [
-    { skill: 'Problem Solving', percentage: 80 },
-    { skill: 'Attention to Detail', percentage: 80 },
-    { skill: 'Collaboration', percentage: 80 },
-    { skill: 'Adaptability', percentage: 60 },
-    { skill: 'Time Management', percentage: 70 },
-    { skill: 'Curiosity for Learning', percentage: 90 },
-    { skill: 'Debugging Proficiency', percentage: 90 },
-    { skill: 'High Energy', percentage: 80 },
-    { skill: 'Hyperfocus', percentage: 95 },
-    { skill: 'Resilience', percentage: 75 },
-    { skill: 'Multi-tasking', percentage: 100 },
-    { skill: 'Creativity', percentage: 70 },
-    { skill: 'Positive Attitude', percentage: 85 },
-    { skill: 'Goal-Oriented', percentage: 90 }
-  ],
+  
+ 
   
   
 };
