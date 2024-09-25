@@ -21,19 +21,19 @@ const educationData = [
     degree: 'BTech in Mechanical Engineering',
     institution: 'The National Institute of Engineering, Mysuru',
     cfu: '240 CFU',
-    courses: ['Thermodynamics', 'Fluid Mechanics', 'Material Science', 'CAD'],
-    skills: ['Problem-solving', 'Analytical Thinking', 'Design Skills', 'Teamwork'],
-    imageUrl: 'path/to/mechanical-engineering-image.jpg',
-    modality: 'Learned mechanical design principles and problem-solving through simulations and real-world projects.'
+    courses: ['Engineering Mathematics 1, 2, 3, 4', 'Computer concepts and C Programming', 'Computer Programming Lab','Mechatronics', 'CAD/CAM course+Lab', 'Professional Communication','Engineering Management','Microgrids with RE Integration'],
+    skills: ['Problem-solving', 'Analytical Thinking', 'Design Skills', 'Teamwork', 'Math Skills'],
+    imageUrl: 'NIE.jpeg',
+    modality: 'Throughout these subjects, I developed strong problem-solving and analytical thinking skills, using engineering principles to tackle complex challenges. My design skills were honed through simulations and real-world projects, emphasizing creativity and precision in mechanical design. Teamwork was a key component, where collaboration and communication were essential for success. I also applied advanced math skills to model and solve engineering problems, integrating theory with hands-on practice. This approach allowed me to blend technical knowledge with practical application, enhancing my overall engineering competence.'
   },
   {
-    degree: 'MSc Robotics Engineer',
+    degree: 'MSc Computer Science (Robotics Engineer)',
     institution: 'University of Genoa',
     cfu: '120 CFU',
-    courses: ['Robot Kinematics', 'Control Systems', 'Artificial Intelligence', 'ROS'],
-    skills: ['Robot Programming', 'AI Integration', 'Automation', 'Research Skills'],
-    imageUrl: 'path/to/robotics-engineering-image.jpg',
-    modality: 'Developed advanced robotic systems with a focus on automation, AI, and hands-on experience with real robots.'
+    courses: ['Artificial Intelligence - 1, 2','Machine Learning', 'Advanced and Robot Programming', 'Software Architecture for Robotics', 'Flexible Automation','Social Robotics', 'Real Time Operating Systems', 'Human Computer Interaction', 'Experimental Robotics'],
+    skills: ['Robot Programming and Software Architectures', 'AI Integration', 'Automation', 'Research Skills','Machine learning ', 'real-time systems', 'Advanced robot programming', 'Problem-solving in flexible and experimental robotics'],
+    imageUrl: 'unige.jpeg',
+    modality: 'I focused on programming and developing software architectures tailored for advanced robotic systems. Through hands-on projects, I designed adaptable software solutions using AI and machine learning to enhance real-time robotic capabilities. My experience emphasized practical programming skills, including coding complex robot behaviors, integrating sensors, and building interactive systems that blend innovative software design with real-world applications. This approach allowed me to refine my programming techniques, focusing on creating flexible and efficient robotic automation solutions grounded in modern engineering practices.'
   }
 ];
 
@@ -41,7 +41,6 @@ const Education = () => {
   return (
     <Box sx={{ padding: '2rem', backgroundColor: '#f4f4f9' }}>
       <Typography variant="h3" sx={{ marginBottom: '1rem', textAlign: 'center' }}>
-        Education
       </Typography>
 
       <Grid container spacing={4}>

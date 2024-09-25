@@ -33,9 +33,9 @@ const Navbar = () => {
             Hobbies
           </Button>
           
-          <Button color="inherit" component={Link} to="/achievements" sx={{ margin: 1 }}>
+          {/*  <Button color="inherit" component={Link} to="/achievements" sx={{ margin: 1 }}>
             Achievements
-          </Button>
+          </Button> */}
           <Button color="inherit" component={Link} to="/experiences" sx={{ margin: 1 }}>
             Experiences
           </Button>

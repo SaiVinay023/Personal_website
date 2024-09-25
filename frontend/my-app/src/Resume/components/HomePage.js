@@ -49,7 +49,15 @@ const HomePageCards = () => {
       rightCard: { title: 'Weaknesses', description: 'Perfectionism, overthinking, time management challenges.', popupDetail: 'On the flip side, I sometimes struggle with perfectionism and overthinking, which can lead to time management challenges. However I am continuously working to improve these areas.' },
     },
     {
+      leftCard: { title: 'Weaknesses', description: 'Perfectionism, overthinking, time management challenges.', popupDetail: 'On the flip side, I sometimes struggle with perfectionism and overthinking, which can lead to time management challenges. However I am continuously working to improve these areas.'  },
+      rightCard: { title: 'Culture Fit', description: 'Proactive, team-oriented, embraces diversity.', popupDetail: 'Culturally, I am proactive and team-oriented, and I wholeheartedly embrace diversity. I believe that a diverse team enriches our collective creativity and effectiveness..' },
+    },
+    {
       leftCard: { title: 'Work Modality', description: 'Prefers agile methodologies and collaboration.', popupDetail: 'In terms of work modality, I thrive in agile environments that prioritize collaboration and flexibility. This approach allows me to be responsive to changing needs and fosters team synergy.' },
+      rightCard: { title: 'Weaknesses', description: 'Perfectionism, overthinking, time management challenges.', popupDetail: 'On the flip side, I sometimes struggle with perfectionism and overthinking, which can lead to time management challenges. However I am continuously working to improve these areas.' },
+    },
+    {
+      leftCard: { title: 'Culture Fit', description: 'Proactive, team-oriented, embraces diversity.', popupDetail: 'Culturally, I am proactive and team-oriented, and I wholeheartedly embrace diversity. I believe that a diverse team enriches our collective creativity and effectiveness..' },
       rightCard: { title: 'Culture Fit', description: 'Proactive, team-oriented, embraces diversity.', popupDetail: 'Culturally, I am proactive and team-oriented, and I wholeheartedly embrace diversity. I believe that a diverse team enriches our collective creativity and effectiveness..' },
     },
   ];
@@ -64,37 +72,60 @@ const HomePageCards = () => {
   };
 
   return (
-    <Box sx={{ padding: 4, background: 'linear-gradient(to right, #e66465, #9198e5)', minHeight: '100vh' }}>
-      <Grid container spacing={4}>
-        {data.map((row, index) => (
-          <Grid container item xs={12} key={index}>
-            <Grid item xs={6}>
-              <FloatingCard
-                title={row.leftCard.title}
-                description={row.leftCard.description}
-                floatDirection="left"
-                onClick={() => handleOpenPopup(row.leftCard)}
-              />
-            </Grid>
-            <Grid item xs={6}>
+    <Box sx={{ padding: 4, background: 'linear-gradient(to left, #e66465, #9198e5)', minHeight: '100vh' }}>
+     <Grid container spacing={4}>
+        {/* Left Cards */}
+        <Grid item xs={6}>
+          <Grid container spacing={4}>
+            {data.map((row, index) => (
+              <Grid item xs={12} key={index}>
+                <FloatingCard
+                  title={row.leftCard.title}
+                  description={row.leftCard.description}
+                  floatDirection="left"
+                  onClick={() => handleOpenPopup(row.leftCard)}
+                />
+              </Grid>
+            ))}
+          </Grid>
+        </Grid>
+          
+           {/*} <Grid item xs={6}>
               <FloatingCard
                 title={row.rightCard.title}
                 description={row.rightCard.description}
                 floatDirection="right"
                 onClick={() => handleOpenPopup(row.rightCard)}
               />
-            </Grid>
-          </Grid>
-        ))}
+            </Grid> */}
+          <Grid item xs={6}>
+          <Box
+            sx={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              height: '100%', 
+              padding: -2,
+            }}
+          >
+            <img
+              src="profile-pic.png" // Update with the actual image path
+              alt="rud profile picture"
+              style={{
+                maxWidth: '100%', 
+                height: 'auto',
+                borderRadius: '8px',
+              }}
+            />
+          </Box>
+        </Grid>
       </Grid>
-
       {/* Centered content about the workplace you're looking for */}
       <Box sx={{ marginTop: 5, textAlign: 'center', maxWidth: '900px', margin: 'auto', padding: 2 }}>
         <Typography variant="h4" gutterBottom sx={{ color: '#fff' }}>
         I’m an ambitious and driven individual who values continuous learning and personal growth. I’m always eager to expand my knowledge and improve my skills, approaching challenges with a focus on creativity and out-of-the-box thinking. I enjoy working in environments where I can make meaningful contributions, leveraging my focus and dedication to achieve results.
         </Typography>
         <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
-        About Me
 
 Reasoning Ability
 
@@ -125,8 +156,9 @@ Team Management
         </Typography>
         <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
           <strong>Team Management
-          :</strong> I’m proficient in reading, writing, and speaking English, which allows me to communicate effectively across diverse professional settings. I value clear communication and strive to express my ideas in a way that fosters teamwork and mutual understanding.
-
+          :</strong> I enjoy working in teams, focusing on clear communication and creating a positive, collaborative atmosphere. I’m keen to learn and grow in managing teams, supporting others, and guiding tasks smoothly while encouraging a productive and supportive environment.
+        </Typography>
+        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
         </Typography>
       </Box>
 

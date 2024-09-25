@@ -5,10 +5,10 @@ import CloseIcon from '@mui/icons-material/Close';
 
 // Array of resumes for different job roles
 const resumesData = [
-  { title: 'Software Engineer', description: 'Detailed resume for Software Engineer roles.', pdf: '/pdfs/Cv_draft_1.pdf' },
-  { title: 'AI/ML Engineer', description: 'Detailed resume for AI/ML Engineer roles.', pdf: 'ai_ml_engineer_cv.pdf' },
-  { title: 'Full Stack Developer', description: 'Detailed resume for Full Stack Developer roles.', pdf: 'full_stack_developer_cv.pdf' },
-  { title: 'Robotics Engineer', description: 'Detailed resume for Robotics Engineer roles.', pdf: 'robotics_engineer_cv.pdf' }
+  { title: 'Front End Developer', description: 'Detailed resume for Front End Developer roles.', pdf: '/pdfs/Cv_draft_1.pdf' },
+  { title: 'Full Stack Developer', description: 'Detailed resume for Full Stack Developer roles.', pdf: '/pdfs/Cv_draft_1.pdf' },
+  { title: 'Embedded Software Engineer', description: 'Detailed resume for Full Stack Developer roles.', pdf: '/pdfs/CV_SaivinayManda.pdf' },
+  { title: 'Robotics Engineer', description: 'Detailed resume for Robotics Engineer roles.', pdf: '/pdfs/CV_SaivinayManda.pdf' }
 ];
 
 const ResumeCard = ({ resumeTitle, resumeDescription, onViewDetails }) => {
@@ -27,7 +27,6 @@ const ResumeCard = ({ resumeTitle, resumeDescription, onViewDetails }) => {
 
         {/* Placeholder for more resume details */}
         <Typography variant="body2" sx={{ marginTop: 4 }}>
-          This section can include your job experience, skills, education, and other important details tailored to the role of {resumeTitle}.
         </Typography>
 
         {/* View More Details Button */}
@@ -51,9 +50,9 @@ const ResumeSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 300,
+    speed: 600,
     autoplay: true,           // Enable autoplay
-    autoplaySpeed: 2000,      // Change slide every 3 seconds (3000 milliseconds)
+    autoplaySpeed: 4000,      // Change slide every 3 seconds (3000 milliseconds)
     slidesToShow: 1,          // Show one card at a time
     slidesToScroll: 1
   };

@@ -34,8 +34,9 @@ const ContactMe = () => {
         Contact Me
       </Typography>
 
-      <Grid container spacing={4}>
-        {/* Left side - Freelancing details and contact methods */}
+      <Grid container spacing={4} justifyContent="center" 
+      alignItems="center" >
+        {/* Left side - contact methods */}
         <Grid item xs={12} md={6}>
           <Card sx={{ marginBottom: 3 }}>
             <CardContent>
@@ -67,7 +68,7 @@ const ContactMe = () => {
           </Card>
         </Grid>
 
-        {/* Right side - Contact form */}
+        {/* Right side - Contact form 
         <Grid item xs={12} md={6}>
           <Card>
             <CardContent>
@@ -110,7 +111,7 @@ const ContactMe = () => {
               </form>
             </CardContent>
           </Card>
-        </Grid>
+        </Grid> */}
       </Grid>
     </Box>
   );
