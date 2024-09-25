@@ -159,7 +159,28 @@ Team Management
           :</strong> I enjoy working in teams, focusing on clear communication and creating a positive, collaborative atmosphere. I’m keen to learn and grow in managing teams, supporting others, and guiding tasks smoothly while encouraging a productive and supportive environment.
         </Typography>
         <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
+        <strong>Unique Traits
+        :</strong> 
         </Typography>
+        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
+         Hyper Focus
+        </Typography>
+        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
+          Out-of-the-Box Thinking
+        </Typography>
+        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
+          Pattern Recognition, Holistic Analysis
+        </Typography>
+        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
+          Learning Agility
+        </Typography>
+        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
+        Crisis Performance
+        </Typography>
+        <Typography variant="body1" paragraph sx={{ color: '#f0f0f0' }}>
+          Exponential Growth Mindset
+        </Typography>
+        
       </Box>
 
       {/* Popup dialog for details */}
